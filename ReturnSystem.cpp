@@ -12,7 +12,9 @@ int main()
 	}
 	else
 	{
-		cout << "Fine is " << fine;
+		int over;
+		over = fine - 7;
+		cout << "Fine is " << over<<"$";
 	}
 	return 0;
 }
